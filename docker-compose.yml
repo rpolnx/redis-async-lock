@@ -1,0 +1,7 @@
+version: "3.7"
+
+services:
+  redis-cache:
+    image: redis:7.2.4-alpine3.19
+    ports:
+      - 6379:6379
