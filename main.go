@@ -11,9 +11,9 @@ import (
 	"time"
 
 	"github.com/bsm/redislock"
-	publisher "github.com/rpolnx/go-redis-async-loc/internal/pub"
-	"github.com/rpolnx/go-redis-async-loc/internal/repo"
-	subscriber "github.com/rpolnx/go-redis-async-loc/internal/sub"
+	publisher "github.com/rpolnx/go-redis-async-lock/internal/pub"
+	"github.com/rpolnx/go-redis-async-lock/internal/repo"
+	subscriber "github.com/rpolnx/go-redis-async-lock/internal/sub"
 )
 
 func main() {

@@ -1,4 +1,4 @@
-module github.com/rpolnx/go-redis-async-loc
+module github.com/rpolnx/go-redis-async-lock
 
 go 1.22.2
 

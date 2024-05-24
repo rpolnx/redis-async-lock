@@ -3,7 +3,7 @@ package publisher
 import (
 	"context"
 
-	"github.com/rpolnx/go-redis-async-loc/internal/repo"
+	"github.com/rpolnx/go-redis-async-lock/internal/repo"
 )
 
 type Publisher struct {

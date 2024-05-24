@@ -5,7 +5,7 @@ import (
 
 	"github.com/bsm/redislock"
 	"github.com/redis/go-redis/v9"
-	"github.com/rpolnx/go-redis-async-loc/internal/repo"
+	"github.com/rpolnx/go-redis-async-lock/internal/repo"
 )
 
 type Subscriber struct {
